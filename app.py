@@ -32,12 +32,16 @@ def get_user_from_token():
 def status():
     return 'API Is Up'
 
+
 @app.route('/user', methods=['GET'])
 def user():
-    # get the user from the auth/header/jwt and just return the user_id
+    # get the user data from the auth/header/jwt
     return {
-        'user_id': ''
+        'user_id': '',
+        'name': '',
+        'email': ''
     }
+
 
 @app.route('/login', methods=['POST'])
 def login():
@@ -48,6 +52,7 @@ def login():
     return {
         'token': ''
     }
+
 
 @app.route('/widgets', methods=['GET'])
 def widgets():
@@ -62,7 +67,7 @@ def widgets():
 
     # GET https://example.com/widgets?user_id={user_id}
     # HEADERS
-    # Authorization: Bearer {api_auth_token}
+    # Authorization: apiKey {api_auth_token}
 
     # the api will return the data in the following format
 
