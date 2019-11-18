@@ -60,10 +60,10 @@ def login():
 def widgets():
     # accept the following optional query parameters (using the the flask.request object to get the query params)
     # type, created_start, created_end
-    # dates will be in iso format (2019-01-04T16:41:24+0200) and can be parsed using the parse_date_time function written and imported for you above
+    # dates will be in iso format (2019-01-04T16:41:24+0200)
+    # dates can be parsed using the parse_date_time function written and imported for you above
     # get the user ID from the auth/header
     # verify that the token has the widgets scope in the list of scopes
-
 
     # Using the requests library imported above send the following the following request,
 
