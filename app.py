@@ -14,13 +14,17 @@ app = Flask(__name__)
 
 def decode_auth_token(auth_token):
     # use jwt, jwt_secret_key
+    # should be a one liner, but we want you to see how JWTs work
     pass
 
 
 def encode_auth_token(user_id, name, email, scopes):
     # use jwt, jwt_secret_key
     # use the following payload:
-    # { 'sub': user_id, 'name': name, 'email': email, 'scope': scopes }
+    # { 'sub': user_id, 'name': name, 'email': email, 'scope': scopes, 'exp': mktime((datetime.now() + timedelta(days=1)).timetuple()) }
+    # should be a one liner, but we want you to see how JWTs work
+    # remember to convert the result of jwt.encode to a string
+    # make sure to use .decode("utf-8") rather than str() for this
     pass
 
 
@@ -69,7 +73,7 @@ def widgets():
 
     # Using the requests library imported above send the following the following request,
 
-    # GET https://example.com/widgets?user_id={user_id}
+    # GET https://us-central1-interview-d93bf.cloudfunctions.net/widgets?user_id={user_id}
     # HEADERS
     # Authorization: apiKey {api_auth_token}
 
