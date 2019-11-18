@@ -7,7 +7,7 @@ import requests
 
 from secrets import api_auth_token, jwt_secret_key
 from utils import parse_date_time
-from business import
+from business import get_user_by_email
 
 app = Flask(__name__)
 
