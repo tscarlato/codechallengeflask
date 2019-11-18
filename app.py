@@ -7,7 +7,7 @@ import requests
 
 from secrets import api_auth_token, jwt_secret_key
 from utils import parse_date_time
-import business
+from business import
 
 app = Flask(__name__)
 
@@ -54,7 +54,7 @@ def user():
 @app.route('/login', methods=['POST'])
 def login():
     # use use flask.request to get the json body and get the email and scopes property
-    # use the business.login function to get the user data
+    # use the get_user_by_email function to get the user data
     # return a the encoded json web token as a token property on the json response as in the format below
     # we're not actually validitating a password or anything because that would add unneeded complexity
     return {
