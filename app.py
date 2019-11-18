@@ -9,9 +9,11 @@ import business
 
 app = Flask(__name__)
 
+
 def decode_auth_token(auth_token):
     # use jwt, jwt_secret_key
     pass
+
 
 def encode_auth_token(user_id, name, email, scopes):
     # use jwt, jwt_secret_key
