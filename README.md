@@ -18,10 +18,12 @@ flask run
 ```
 
 ## Task
-You will be implementing a very basic passthrough api in flask. It will allow you to "login" as user (no password) get a web token that you use for other API calls. You will pass an API Token and query parameter to the other API. You will implement the following API endpoints.
+You will be implementing a simplified passthrough api in flask. It will allow you to "login" as user (no password) get a web token that you use for other API calls. You will pass an API Token and query parameter to the other API. You will implement the following API endpoints.
 - POST /login
 - GET /user
 - GET /widgets
+
+You will also implement additional three functions. All functions and API endpoints that you will need to implement are in the app.py file with instructions on how they will work and hints on implementation.
 
 Unit or automated tests aren't necessary unless they help you, we think they would add too much time commitment. Matt didn't end up using them for his implementation.
 
