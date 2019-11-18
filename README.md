@@ -32,3 +32,7 @@ Matt completed in about 45 minutes, so we are expecting it to take 1.5-2 hours f
 
 ## Submission 
 We would ask that you send Matt a link to your repository before the interview, preferably at least 24 hours before.
+
+
+## Terms of use by others for interviews
+If you end up copying this and using it to conduct interviews you agree to remove the usage of the api endpoint that this code test hits. It's run on a free plan of firebase and can't handle traffic coming from multiple companies interview processes. If you want the code for that other API log an issue on this repo and I'll post it.
