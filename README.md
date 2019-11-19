@@ -27,6 +27,9 @@ You will also implement additional three functions. All functions and API endpoi
 
 Unit or automated tests aren't necessary unless they help you, we think they would add too much time commitment. Matt didn't end up using them for his implementation.
 
+## Testing
+We recomend using either curl or postman to test depending on whether you prefer console or UI.
+
 ## Time
 Matt completed in about 45 minutes, so we are expecting it to take 1.5-2 hours for most candidates but this is also the first time we have given this test so we don't yet have real data to back that up. You don't have to complete this assignment if you feel it is taking too long given your own definition of too long and if it takes more than 3 hours we strongly encourage you to leave it unfinished as it was not our intent. This assignment is not going to be used as a pass/fail assignment but rather as a conversation point in the in person interview, which may include pairing to improve the code in this assignment and pairing to finish the assignment would be equally valuable. We're trying to learn about the effectiveness of this new assignment just as we are about your coding abilities so we hope you'll give us honest feedback on it. Feel free to ask questions at any point.
 
